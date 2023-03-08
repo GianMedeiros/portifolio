@@ -13,54 +13,66 @@
 
 <body>
     <section class="topo" id="topo">
-
+        
     </section>
-    <header></header>
-        <ul class="menu" id="menu">
-            <li><a href="#topo">Início</a></li>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+        <header>
+            <ul class="menu" id="menu">
+                <li><a class="menu__links" href="#topo">Início</a></li>
+                <li><a class="menu__links" href="#sobre-mim">Sobre mim</a></li>
+                <li><a class="menu__links" href="#projetos">Projetos</a></li>
+                <li><a class="menu__links" href="#contato">Contato</a></li>
+            </ul>
+            
+        </header>
 
-    </header>
     <main class="apresentacao">
-        <section class="sobre-mim" id="sobre-mim">
-
-            <div id="sobre-mim-img">
+        <section class="sobre__mim" id="sobre-mim">
+            <div>
                 <img src="../imgs/foto-minha.jpg" alt="Foto do Gian Medeiros">
             </div>
-            <div id="sobre-mim-txt">
-                <h2>Olá,<br>Eu sou um desenvolvedor de software</h2>
+
+            <div class="sobre__mim__txt">
+                <div class="sobre__mim__txt_titulo">
+                    <strong><h2>Olá,<br>Eu sou um desenvolvedor de software</h2></strong>
+                    
+                    <p>Sou estudante da Universiade de Brasília e estou cursando o 8° semestre em Engenharia de software.<br></p>
+                </div>
                 
-                <p>Sou estudante da Universiade de Brasília e estou cursando o 8° semestre em Engenharia de software.</p>
-                
-                <p><strong>Nome: </strong>Gian Medeiros Rosa</p>
-                <p><strong>Endereço: </strong>Brasília, DF</p>
-                <p><strong>Email: </strong>gianmedeiros14@gmail.com</p>
-                <p><strong>Idade: </strong>21</p>     
+                <div class="sobre__mim__txt__conteudo">
+                    <p><strong><br>Nome: </strong>Gian Medeiros Rosa</p>
+                    <p><strong>Endereço: </strong>Brasília, DF</p>
+                    <p><strong>Email: </strong>gianmedeiros14@gmail.com</p>
+                    <p><strong>Idade: </strong>21</p>
+                </div>     
             </div>
             
         </section>
 
         <section class="projetos" id="projetos">
-            <h2>Projetos</h2>
+            <h2><strong>Projetos</strong></h2>
 
-            
-            <p><strong><a href="https://stingray-app-4tbp8.ondigitalocean.app/">Dubium</a><br></strong>O projeto tem a finalidade de ser um site de suporte aos estudantes da FGA</p>
-            <p><strong>ALEI<br></strong>O Alei é um projeto de pesquisa e desenvolvimento, realizado pelo GPAM junto ao TRF1 com o objetivo de utilizar IA para automatizar fases processuais de segunda instância do TRF1.</p>
-            <p><strong>Nortear Cartografia<br></strong>O projeto foi destinado ao uso de um aplicativo para a demarcação de terra por comunidades.</p>
-
+            <div class="proj__itens">
+                <p class="proj__itens__caixas"><strong><a class="proj__itens__caixas__links" href="https://stingray-app-4tbp8.ondigitalocean.app/">Dubium</a><br></strong>O projeto tem a finalidade de ser um site de suporte aos estudantes da FGA</p>
+                <p class="proj__itens__caixas"><strong><a class="proj__itens__caixas__links" href="https://ailab.unb.br/projetos/alei">ALEI</a><br></strong>O Alei é um projeto de pesquisa e desenvolvimento, realizado pelo GPAM junto ao TRF1 com o objetivo de utilizar IA para automatizar fases processuais de segunda instância do TRF1.</p>
+                <p class="proj__itens__caixas"><strong><a class="proj__itens__caixas__links" href="https://github.com/fga-eps-mds/2021.2-Cartografia-social-api-users">Nortear Cartografia Social</a><br></strong>O projeto foi destinado ao uso de um aplicativo para a demarcação de terra por comunidades.</p>
+            </div>
         </section>
 
         <section class="contato" id="contato">
-            <h2>Contato</h2>
+            <h2><strong>Contato</strong></h2>
 
-            <p><strong>Número: </strong>(61) 99905-6994</p>
-            <p><strong>Email: </strong>gianmedeiros14@gmail.com</p>
-            <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/gian-medeiros-62aa461b1/">https://www.linkedin.com/in/gian-medeiros-62aa461b1/</a></p>
-            <p><strong>Instagram: </strong><a href="https://www.instagram.com/gimero/?next=%2F">@gimero</a></p>
-            <p><strong>Github: </strong><a href="https://github.com/GianMedeiros">https://github.com/GianMedeiros</a><p>
+            <div class="contato__texto">
+                <div>
+                    <p><strong>Número: </strong>(61) 99905-6994</p>
+                    <p><strong>Telegram: </strong>GianMedeiros</p>
+                    <p><strong>Email: </strong>gianmedeiros14@gmail.com</p>
+                </div>
+                <div>
+                    <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/gian-medeiros-62aa461b1/">https://www.linkedin.com/in/gian-medeiros-62aa461b1/</a></p>
+                    <p><strong>Instagram: </strong><a href="https://www.instagram.com/gimero/?next=%2F">@gimero</a></p>
+                    <p><strong>Github: </strong><a href="https://github.com/GianMedeiros">https://github.com/GianMedeiros</a><p>
+                </div>
+            </div>
 
         </section>
     </main>
