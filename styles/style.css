@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    display: flex;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: rgb(91, 91, 254);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    }
+    
+    menu {
+        margin: 0;
+        padding:0;
+        
+    }
+    
+    li {
+        list-style: none; 
+        margin: 25px;
+        display: inline;
+    }
+    li a {
+        padding: 5px 10px; 
+        margin:0;
+        border: 0px solid rgb(77, 71, 255); 
+        background: rgb(46, 49, 128);
+        text-decoration: none;
+        color:#FFF;
+        /* cantos arredondados */
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+    }
+    li a:hover {
+        background: #CCC;
+        color: #000; 
+        border-color: #000;
+} */
